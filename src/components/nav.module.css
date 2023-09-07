@@ -1,0 +1,19 @@
+* {
+  margin: 5px;
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  gap: 40px;
+}
+
+.right  {
+  display: flex;
+  gap: 40px;
+}

@@ -5,10 +5,15 @@ export default function Nav() {
   return (
     <nav className={nav.nav}>
       <ul className={nav.list}>
-        <Link className={nav.items}>Back</Link>
-        <p className={nav.profile}>profile</p>
-        <Link className={nav.items}>search</Link>
-        <button className={nav.btn}>Menu</button>
+        <p className={nav.left}>
+          <Link className={nav.items}>Back</Link>
+          <Link className={nav.items}>User Name</Link>
+        </p>
+        <p className={nav.right}>
+          <Link className={nav.items}>search</Link>
+          <Link className={nav.items}>Menu</Link>
+        </p>
+
       </ul> 
     </nav>
   )
