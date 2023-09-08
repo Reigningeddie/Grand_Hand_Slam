@@ -1,12 +1,14 @@
 .nav {
   margin: 20px;
   z-index: 10;
+  height: 60px;
 }
 
 .items {
   text-decoration: none;
-  font-size: 20px;
-  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  color: #939393;
 }
 
 
