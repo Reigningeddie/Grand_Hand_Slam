@@ -10,7 +10,7 @@ export default function Nav() {
           <Link className={nav.items}>User Name</Link>
         </p>
         <p className={nav.right}>
-          <Link className={nav.items}>search</Link>
+          <Link className={nav.items}>Search</Link>
           <Link className={nav.items}>Menu</Link>
         </p>
 
