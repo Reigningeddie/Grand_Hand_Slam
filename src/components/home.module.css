@@ -4,12 +4,26 @@
 }
 
 body {
-  background-color: #2c3333;
-  color: #cbe4de;
+  background-color: #435b66;
+  color: #93b1a6;
+}
+
+.title  {
+  color: #EAB2A0;
+}
+
+.pic {
+  border: solid;
+  height: 5em;
+  width: 5em;
+  background-color: #EAB2A0;
+  border-radius: 50%;
 }
 
 .body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 30px;
+  color: #A76F6F;
 }
