@@ -1,13 +1,13 @@
 import {HashRouter} from 'react-router-dom'
 import Home from './components/home'
-import Nav from './components/nav'
+import Menu from './components/menu'
 import Banner from './components/banner'
 
 function App() {
   return (
   <HashRouter>
     <Banner />
-    <Nav />
+    <Menu />
     <Home />
   </HashRouter>
   );
