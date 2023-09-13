@@ -5,7 +5,6 @@
 
 body {
   background-color: #435b66;
-  color: #93b1a6;
 }
 
 .title  {
@@ -19,6 +18,29 @@ body {
   background-color: #EAB2A0;
   border-radius: 50%;
 }
+
+.dez {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.grid {
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: repeat(3, 140px);
+  font-size: 25px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gSum {
+  font-weight: bold;
+}
+
 
 .body {
   display: flex;
