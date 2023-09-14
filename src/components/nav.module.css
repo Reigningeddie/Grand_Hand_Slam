@@ -3,23 +3,38 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 10vh;
-}
 
-.structure {
-  display: flex;
-  align-items: space-evenly;
-  justify-content: space-evenly;
-  border: solid;
 }
 
 .sides {
   width: 10vw;
 }
 
+.structure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+}
+
 .main {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #2d4356;
   width: 70vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 20px;
+  font-size: 25px;
+}
+
+.item {
+  display: flex;
+  border: solid;
+  height: 15vh;
+  width: 15vw;
 }
 
