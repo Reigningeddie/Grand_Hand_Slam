@@ -22,6 +22,7 @@ body {
 .dez {
   color: aliceblue;
   font-size: 25px;
+  margin-top: 3vh;
 }
 
 .grid {
@@ -40,6 +41,7 @@ body {
 .gSum {
   font-weight: bold;
 }
+
 
 
 .body {

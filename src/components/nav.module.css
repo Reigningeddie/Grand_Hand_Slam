@@ -1,0 +1,25 @@
+.body {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.structure {
+  display: flex;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  border: solid;
+}
+
+.sides {
+  width: 10vw;
+}
+
+.main {
+  display: flex;
+  background-color: #2d4356;
+  width: 70vw;
+}
+
