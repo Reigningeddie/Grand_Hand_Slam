@@ -1,0 +1,41 @@
+.body {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sides {
+  width: 10vw;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #2d4356;
+  width: 50vw;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.leader {
+  display: flex;
+  height: 100px;
+  border: solid;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.item {
+  display: grid;
+  height: 50px;
+  width: 250px;
+  border: solid;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}

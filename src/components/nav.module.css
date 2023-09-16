@@ -10,31 +10,31 @@
   width: 10vw;
 }
 
-.structure {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid;
-}
-
 .main {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #2d4356;
-  width: 70vw;
+  width: 50vw;
+  height: 60vh;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 20px;
+  grid-template-columns: 1fr 1fr;
   font-size: 25px;
+  gap: 10px;
 }
 
 .item {
   display: flex;
+  justify-content: center;
+  align-items: center;
   border: solid;
   height: 15vh;
-  width: 15vw;
+  width: 12vw;
+  border: solid;
+  text-decoration: none;
+  color: #82ffff;
 }
 
