@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 export default function Nav() {
   return(
-    <p className={css.body}>
+    <div className={css.body}>
     <p className={`${css.structure} ${css.sides}`}></p>
       <main className={`${css.structure} ${css.main}`}>
       <container className={css.grid}>
         <Link to='leader' className={css.item}>LeaderBoards</Link>
-        <Link className={css.item}>Power-Ups</Link>
+        <Link to='power' className={css.item}>Power-Ups</Link>
         <Link className={css.item}>Specials</Link>
         <Link className={css.item}>Friends</Link>
         <Link className={css.item}>Rules</Link>
@@ -16,6 +16,6 @@ export default function Nav() {
   </container>
       </main>
     <p className={`${css.structure} ${css.sides}`}></p>
-    </p>
+    </div>
   )
 }

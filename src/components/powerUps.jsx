@@ -1,14 +1,12 @@
-import css from './leaderBoard.module.css';
+import css from './powerUps.module.css';
 
-export default function leaderBoard () {
+function powerUps () {
   return(
     <div className={css.body}>
     <p className={`${css.structure} ${css.sides}`}></p>
       <main className={`${css.structure} ${css.main}`}>
       <container className={css.grid}>
-        <div className={css.top}>
-          <span className={css.leader}>No. 1</span>
-        </div>
+        <span className={css.item}>No. 1</span>
         <span className={css.item}>No. 2</span>
         <span className={css.item}>No. 3</span>
         <span className={css.item}>No. 4</span>
@@ -19,4 +17,6 @@ export default function leaderBoard () {
     <p className={`${css.structure} ${css.sides}`}></p>
     </div>
   )
-}
+};
+
+export default powerUps;

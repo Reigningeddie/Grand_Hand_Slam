@@ -2,7 +2,7 @@ import css from './home.module.css';
 
 export default function Home() {
   return (
-    <main className={css.body}>
+    <div className={css.body}>
     <h1 className={css.title}>Grand Hand Slam</h1>
     <p className={css.pic}></p>
     <h4 className={css.name}>User Name</h4>
@@ -15,6 +15,6 @@ export default function Home() {
       <span className={`${css.gName} ${css.items}`}>following</span>
     </p>
     <p className={css.dez}>Description (add max characters)</p>
-  </main>
+  </div>
   )
 }
