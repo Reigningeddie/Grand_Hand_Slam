@@ -10,7 +10,7 @@ export default function Nav() {
         <Link to='leader' className={css.item}>LeaderBoards</Link>
         <Link to='power' className={css.item}>Power-Ups</Link>
         <Link className={css.item}>Specials</Link>
-        <Link className={css.item}>Friends</Link>
+        <Link to='friends' className={css.item}>Friends</Link>
         <Link className={css.item}>Rules</Link>
         <Link className={css.item}>Bars</Link>
   </container>

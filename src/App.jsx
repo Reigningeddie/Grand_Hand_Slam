@@ -5,6 +5,7 @@ import Banner from './components/banner';
 import Nav from './components/nav';
 import LeaderBoard from './components/leaderBoard';
 import PowerUps from './components/powerUps';
+import Friends from './components/friends';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path='/' element={<Nav />} />
       <Route path='/leader' element={<LeaderBoard />} />
       <Route path='/power' element={<PowerUps />} />
+      <Route path='/friends' element={<Friends />} />
     </Routes>
   </div>
   );
