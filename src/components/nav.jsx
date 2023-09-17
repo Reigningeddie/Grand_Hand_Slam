@@ -7,7 +7,7 @@ export default function Nav() {
     <p className={`${css.structure} ${css.sides}`}></p>
       <main className={`${css.structure} ${css.main}`}>
       <container className={css.grid}>
-        <Link className={css.item}>LeaderBoards</Link>
+        <Link to='leader' className={css.item}>LeaderBoards</Link>
         <Link className={css.item}>Power-Ups</Link>
         <Link className={css.item}>Specials</Link>
         <Link className={css.item}>Friends</Link>

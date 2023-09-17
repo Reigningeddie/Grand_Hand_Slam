@@ -7,7 +7,7 @@ export default function Menu() {
       <ul className={css.list}>
         <p className={css.left}>
           <Link className={css.items}>Back</Link>
-          <Link className={css.items}>User Name</Link>
+          <Link to='/' className={css.items}>User Name</Link>
         </p>
         <p className={css.right}>
           <Link className={css.items}>Search</Link>
